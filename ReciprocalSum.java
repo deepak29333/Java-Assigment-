@@ -2,14 +2,15 @@
 class ReciprocalSum {
     public static void main(String arg[]) {
         float sum = 0;
-        for (int i = 1; i <= 10; i++) {
+        for (float i = 1; i <= 10; i++) {
             if (i == 10)
                 System.out.print("1/" + i);
             else
                 System.out.print("1/" + i + "+");
 
-            sum += 1 / i;
+            sum = sum + 1 / i;
         }
+        System.out.println("");
         System.out.println("Sum of series is: " + sum);
     }
 }
