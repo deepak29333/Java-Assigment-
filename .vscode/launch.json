@@ -1,42 +1,56 @@
 {
-    // Use IntelliSense to learn about possible attributes.
-    // Hover to view descriptions of existing attributes.
-    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
-    "version": "0.2.0",
-    "configurations": [
-        {
-            "type": "java",
-            "name": "Launch Current File",
-            "request": "launch",
-            "mainClass": "${file}"
-        },
-        {
-            "type": "java",
-            "name": "Launch IntegerAdderByClass",
-            "request": "launch",
-            "mainClass": "IntegerAdderByClass",
-            "projectName": "Java Program_85ac6b80"
-        },
-        {
-            "type": "java",
-            "name": "Launch IntergerAdder",
-            "request": "launch",
-            "mainClass": "IntergerAdder",
-            "projectName": "Java Program_85ac6b80"
-        },
-        {
-            "type": "java",
-            "name": "Launch LeapDemo",
-            "request": "launch",
-            "mainClass": "LeapDemo",
-            "projectName": "Java Program_85ac6b80"
-        },
-        {
-            "type": "java",
-            "name": "Launch ReciprocalSum",
-            "request": "launch",
-            "mainClass": "ReciprocalSum",
-            "projectName": "Java Program_85ac6b80"
-        }
-    ]
+  // Use IntelliSense to learn about possible attributes.
+  // Hover to view descriptions of existing attributes.
+  // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "name": "Launch FinancialCal",
+      "request": "launch",
+      "mainClass": "FinancialCal",
+      "projectName": "Java Program_85ac6b80"
+    },
+    {
+      "type": "java",
+      "name": "Launch EmployeePay",
+      "request": "launch",
+      "mainClass": "EmployeePay",
+      "projectName": "Java Program_85ac6b80"
+    },
+    {
+      "type": "java",
+      "name": "Launch Current File",
+      "request": "launch",
+      "mainClass": "${file}"
+    },
+    {
+      "type": "java",
+      "name": "Launch IntegerAdderByClass",
+      "request": "launch",
+      "mainClass": "IntegerAdderByClass",
+      "projectName": "Java Program_85ac6b80"
+    },
+    {
+      "type": "java",
+      "name": "Launch IntergerAdder",
+      "request": "launch",
+      "mainClass": "IntergerAdder",
+      "projectName": "Java Program_85ac6b80"
+    },
+    {
+      "type": "java",
+      "name": "Launch LeapDemo",
+      "request": "launch",
+      "mainClass": "LeapDemo",
+      "projectName": "Java Program_85ac6b80"
+    },
+    {
+      "type": "java",
+      "name": "Launch ReciprocalSum",
+      "request": "launch",
+      "mainClass": "ReciprocalSum",
+      "projectName": "Java Program_85ac6b80"
+    }
+  ]
 }
