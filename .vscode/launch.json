@@ -6,6 +6,20 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Launch DuplicateFinder",
+      "request": "launch",
+      "mainClass": "DuplicateFinder",
+      "projectName": "Java Program_85ac6b80"
+    },
+    {
+      "type": "java",
+      "name": "Launch MaxSecondMaxName",
+      "request": "launch",
+      "mainClass": "MaxSecondMaxName",
+      "projectName": "Java Program_85ac6b80"
+    },
+    {
+      "type": "java",
       "name": "Launch FinancialCal",
       "request": "launch",
       "mainClass": "FinancialCal",
