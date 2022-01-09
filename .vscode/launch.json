@@ -6,6 +6,27 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Launch DecipherCaesarCode",
+      "request": "launch",
+      "mainClass": "DecipherCaesarCode",
+      "projectName": "Java Program_85ac6b80"
+    },
+    {
+      "type": "java",
+      "name": "Launch WaffleMain",
+      "request": "launch",
+      "mainClass": "WaffleMain",
+      "projectName": "Java Program_85ac6b80"
+    },
+    {
+      "type": "java",
+      "name": "Launch ShortString",
+      "request": "launch",
+      "mainClass": "ShortString",
+      "projectName": "Java Program_85ac6b80"
+    },
+    {
+      "type": "java",
       "name": "Launch DuplicateFinder",
       "request": "launch",
       "mainClass": "DuplicateFinder",

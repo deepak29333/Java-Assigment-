@@ -25,16 +25,25 @@
       }
       // filter vowels 
       static char[] filterVowel(char[] arr){
-          char filterArr[]=new char[arr.length];
-          int p=0;
+         int k=0;
           for(int i=0;i<arr.length;i++){
             if(arr[i]=='a' ||arr[i]=='e' ||arr[i]=='o' || arr[i]=='i' ||arr[i]=='u' ){
                 continue;
             }
             else{
-                filterArr[p]=arr[i];
-                p++; 
+                k++;
             }
+        }
+        char filterArr[]=new char[k];
+        int p=0;
+        for(int i=0;i<=k;i++){
+            if(arr[i]=='a' ||arr[i]=='e' ||arr[i]=='o' || arr[i]=='i' ||arr[i]=='u' ){
+                continue;
+            }else{
+                filterArr[p]=arr[i];
+                p++;
+            }
+               
         }
         return filterArr;
       }
