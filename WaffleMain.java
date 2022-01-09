@@ -6,19 +6,7 @@ b) toString()*/
 import java.util.Scanner;
 class WaffleMain{
        public static void main(String[] args) {
-        // println("Enter 1st Object Flavour And Price");
-        // println("Enter Flavour: ");
-        // Scanner scan=new Scanner(System.in);
-        // String c1_flavour=scan.nextLine();
-        // println("Enter Price: ");
-        // int c1_price=scan.nextInt();
-        // scan.nextLine();
-        // println("Enter 2nd Object Flavour And Price");
-        // println("Enter Flavour: ");
-        // String c2_flavour=scan.nextLine();
-        // println("Enter Price: ");
-        // int c2_price=scan.nextInt();
-        // scan.close();
+       
         Waffle c1=new Waffle("Vanilla",50);
         Waffle c2=new Waffle("Vanilla", 50);
         if(c1.equals(c2)){
