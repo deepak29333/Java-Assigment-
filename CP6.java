@@ -8,7 +8,6 @@ interface animal{
 }
 class CP6 implements animal{
     public static void main(String[] args) {
-        
       var O= new CP6();
       O.eat("Dog");
       O.travel();
