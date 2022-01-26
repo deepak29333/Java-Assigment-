@@ -4,6 +4,14 @@
   // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
   "version": "0.2.0",
   "configurations": [
+  
+    {
+      "type": "java",
+      "name": "CodeLens (Launch) - DP1",
+      "request": "launch",
+      "mainClass": "DP1",
+      "projectName": "Java Program_1cf3a670"
+    },
     {
       "type": "java",
       "name": "Launch DecipherCaesarCode",
