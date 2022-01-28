@@ -27,6 +27,7 @@ class DP3{
             int age=input.nextInt();
             println("Enter your Marks: ");
             int marks= input.nextInt();
+            input.close();
             var s1=new StudentRegistrationCheck(age,marks);
             if(s1.isEligible()){
                 println("You is eligible.");
