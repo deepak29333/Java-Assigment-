@@ -32,7 +32,7 @@ Would it help to change the  parameters of the two invocations of Sleep? How wou
     public static void main(String args[]) throws InterruptedException {
         new CorrectorThread().start(); 
     message = "Mares do not eat oats.";
-     Thread.sleep(1000);
+     Thread.sleep(1001);
     // Key statement 2: 
     System.out.println(message);
     }

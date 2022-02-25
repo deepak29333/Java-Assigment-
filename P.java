@@ -1,0 +1,1 @@
+public class P{ public static void main(String[] args) { char arr[]={'B','V','I','C','A','M'}; System.out.print(""+arr[0]+arr[arr.length-1]); }}
