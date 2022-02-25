@@ -86,12 +86,12 @@ class ShowDataSwing extends JFrame implements ActionListener {
     JLabel dateOJ;
     JLabel Address;
     JTextField nameTextField;
-    JComboBox day;
-    JComboBox Month;
-    JComboBox year;
+    // JComboBox days;
+    // JComboBox Month;
+    // JComboBox year;
     JTextArea inputArea;
-    int[] totalday={1,2,3,4,5,6,7,8,9,10};
-    String[] month={"jan","feb","march"};
+    // int totalday[]={1,2,3,4,5,6,7,8,9,10};
+    String month[]={"jan","feb","march"};
     ShowDataSwing(){
         //name label
         name=new JLabel("name");
@@ -108,11 +108,20 @@ class ShowDataSwing extends JFrame implements ActionListener {
         nameTextField = new JTextField();
         nameTextField.setBounds(300,50,100,30);
         //date of joining ComboBox
-        day=new JComboBox(totalday);
+         JComboBox months=new JComboBox(month);
+         months.setSelectedIndex(2);
+         months.setBounds(300, 100, 30, 30);
 
+
+        add(name);
+        add(dateOJ);
+        add(Address);
+        add(nameTextField);
+        add(months);
         // day.setVisible(true);
         setVisible(true);
         setLayout(null);
+        setSize(1300,700);
     }
     public void actionPerformed(ActionEvent e){
 
@@ -121,7 +130,7 @@ class ShowDataSwing extends JFrame implements ActionListener {
 class GP3{
     public static void main(String[] args) {
         Scanner scan =new Scanner(System.in);
-        System.out.println("Enter 1 for AWT \n  Enter 2 for Swing");
+        System.out.println("Enter 1 for AWT \nEnter 2 for Swing");
         try {
             int n=scan.nextInt();
             scan.close();
