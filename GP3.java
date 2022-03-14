@@ -86,12 +86,15 @@ class ShowDataSwing extends JFrame implements ActionListener {
     JLabel dateOJ;
     JLabel Address;
     JTextField nameTextField;
-    // JComboBox days;
-    // JComboBox Month;
-    // JComboBox year;
+    JComboBox days;
+    JComboBox Month;
+    JComboBox year;
     JTextArea inputArea;
-    // int totalday[]={1,2,3,4,5,6,7,8,9,10};
+    JButton btnDisplay;
+    JButton btnCancel;
+    String totalday[]={"1","2","3","4","5","6","7","8","9","10"};
     String month[]={"jan","feb","march"};
+    String years[]={"2000","2001"};
     ShowDataSwing(){
         //name label
         name=new JLabel("name");
@@ -106,22 +109,38 @@ class ShowDataSwing extends JFrame implements ActionListener {
         Address.setBounds(50,150,200,30);
         // name textfield
         nameTextField = new JTextField();
-        nameTextField.setBounds(300,50,100,30);
+        nameTextField.setBounds(300,50,200,30);
         //date of joining ComboBox
-         JComboBox months=new JComboBox(month);
-         months.setSelectedIndex(2);
-         months.setBounds(300, 100, 30, 30);
+            // JComboBox cb=new JComboBox(country); 
+            days=new JComboBox(totalday);
+            days.setBounds(300, 100, 50, 30);   
+            Month=new JComboBox(month);
+            Month.setBounds(350, 100, 50, 30);
+            year=new JComboBox(years);
+            year.setBounds(400, 100, 50, 30);
+            btnDisplay =new JButton("Display");
+            btnCancel =new JButton("Cancel");
+            btnDisplay.setBounds(20, 200,80, 30);
+            btnCancel.setBounds(80, 200,80, 30);
 
-
+        inputArea = new JTextArea();
+        inputArea.setBounds(300, 150, 200, 300);
         add(name);
         add(dateOJ);
         add(Address);
         add(nameTextField);
-        add(months);
+        add(days);
+        add(Month);
+        add(year);
+        add(inputArea);
+        add(btnDisplay);
+        add(btnDisplay);
         // day.setVisible(true);
-        setVisible(true);
         setLayout(null);
         setSize(1300,700);
+        setVisible(true);
+        revalidate();
+        validate();
     }
     public void actionPerformed(ActionEvent e){
 

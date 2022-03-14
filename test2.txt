@@ -1,0 +1,5 @@
+Line:- 'this is file for testing purpose'
+Vowels: 10
+Consonants: 17
+Spaces: 5
+---------------------------------
